@@ -4,8 +4,8 @@
 
 The task is to write functionality for calculating campaign price when a customer is doing a
 checkout. We have the following campaign types
-⁃ Campaigns based on product combination
-⁃ Campaigns based on volume, for example 2 for amount or 3 for x amount
+- Campaigns based on product combination
+- Campaigns based on volume, for example 2 for amount or 3 for x amount
 
 ### Combo campaigns
 For the combo campaign to work, the customer must combine a minimum of two products to get
