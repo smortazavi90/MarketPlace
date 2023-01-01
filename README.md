@@ -1,4 +1,4 @@
-# CodeTest-StoreKey
+# StoreKey
 
 ## Calculate campaign price
 
