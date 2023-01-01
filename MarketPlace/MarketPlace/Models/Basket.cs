@@ -14,6 +14,11 @@ public class Basket
         Products.Add(product);
     }
     
+    public void AddProductsToBasket(IEnumerable<Product> products)
+    {
+        Products.AddRange(products);
+    }
+    
     public bool TryRemoveProductFromBasket(Product removingProduct)
     {
         Product? product = Products.SingleOrDefault(p => p.EAN.Equals(removingProduct.EAN, StringComparison.OrdinalIgnoreCase));
